@@ -1,0 +1,27 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  --primary-color: #316ab2;
+  --bcg-color: #f0f0f0;
+  --secondary-color: #ffcb05;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.App-header {
+  border: 2px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 1.2em;
+  color: var(--primary-color);
+}
+
+.App-title {
+  font-weight: bolder;
+  font-size: 1.6rem;
+  text-align: center;
+  text-transform: uppercase;
+}

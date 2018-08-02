@@ -1,0 +1,16 @@
+.species-list {
+  border-bottom: 2px solid var(--primary-color);
+  list-style: none;
+  padding-left: 3em;
+}
+
+.species-list__name {
+  margin: 0;
+  padding-top: 1em;
+  text-transform: capitalize;
+}
+
+.species-list__details {
+  padding-top: 0.5em;
+  font-weight: bold;
+}

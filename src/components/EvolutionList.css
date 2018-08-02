@@ -1,0 +1,19 @@
+.evo-list {
+  margin: 0;
+  height: 100%;
+  background-color: var(--bcg-color);
+  padding: 0;
+  color: var(--primary-color);
+}
+
+.evo-list__item {
+  border-bottom: 2px solid var(--primary-color);
+  list-style: none;
+  padding-left: 3em;
+}
+
+.item__name {
+  margin: 0;
+  padding: 2em 1em;
+  text-transform: capitalize;
+}

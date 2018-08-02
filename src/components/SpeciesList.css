@@ -1,0 +1,7 @@
+.species {
+  margin: 0;
+  height: 100%;
+  background-color: var(--bcg-color);
+  padding: 0;
+  color: var(--primary-color);
+}
